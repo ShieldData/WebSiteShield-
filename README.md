@@ -6,11 +6,16 @@ Cyberpunk-styled corporate website for Shield Data IT firm.
 
 ```
 shield-data/
-├── index.html      ← Main page (upload this to host)
-├── styles.css      ← All styles
-├── script.js       ← All JavaScript & canvas animations
+├── index.html      ← Everything in one file (HTML + CSS + JS)
+├── styles.css      ← Standalone CSS (reference copy)
+├── script.js       ← Standalone JS (reference copy)
 └── README.md       ← This file
 ```
+
+> **Note:** `index.html` is self-contained — CSS and JS are inlined.
+> This ensures it works on GitHub Pages, Netlify, and any static host
+> without path or CORS issues. `styles.css` and `script.js` are kept
+> as separate reference files for easier editing.
 
 ## Features
 
